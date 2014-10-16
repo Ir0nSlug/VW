@@ -1,0 +1,18 @@
+<html ng-app="vagrantApp">
+    <head>
+        <meta charset="utf-8" />
+        <title>The Vagrant War</title>        
+        <link rel="stylesheet" href="web/css/style.css">
+        <script src="client/scripts/vendor/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.js"></script>
+        <script src="client/scripts/vendor/es5-shim.min.js"></script>
+        <script src="client/scripts/app.js"></script>
+        <script src="client/scripts/controllers/darknessCtrl.js"></script>
+    </head>
+    <div ng-controller="darknessCtrl">
+        <span ng-bind="wordsInTheDark"></span>
+        <form ng-submit="strangerAction()">
+            <input ng-model="strangerInput" />
+        </form>
+    </div>
+</html>

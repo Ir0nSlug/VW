@@ -1,0 +1,21 @@
+{
+  "name": "vagrantApi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "express": "~4.9.7",
+    "express-jwt": "~0.4.0",
+    "jsonwebtoken": "~1.1.2",
+    "express-json": "~1.0.0",
+    "body-parser": "~1.9.0",
+    "express-session": "~1.8.2",
+    "debug": "~2.1.0"
+  },
+  "description": "ERROR: No README.md file found!",
+  "main": "api.js",
+  "devDependencies": {},
+  "repository": "",
+  "author": "IronSlug",
+  "license": "MIT"
+}
